@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Aug 15 18:55:51 2024
+Created on Thu Aug 15 22:16:27 2024
 
-@author: Student
+@author: nguyenhoaidinhvi
 """
+
 print("kiểm tra tính hợp lệ của ngày tháng năm")
 y=float(input("nhập năm:"))
 if 0<y<2025:
@@ -29,7 +30,7 @@ if 0<y<2025:
                 else:
                     print("không hợp lệ")
     else:
-        m=float(input("nhập tháng"))
+        m=float(input("nhập tháng:"))
         if 1<=m<=12:
             if m==2:
                 d=float(input("nhập ngày:"))
@@ -49,6 +50,6 @@ if 0<y<2025:
                     print("hợp lệ")
                 else:
                     print("không hợp lệ")
+else:
+    print("không xác định được")
                 
-                
-              
